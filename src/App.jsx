@@ -2,14 +2,10 @@
  * @author Wen Fang
  * @license Apache 2.0
  */
-import React from "react";
-
+//components
+import Header from "./components/Header.jsx";
 const App = () => {
-  return (
-    <div>
-      <h1>Welcome to Wen-Fang's Portfolio</h1>
-    </div>
-  );
+  return <Header />;
 };
 
 export default App;
